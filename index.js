@@ -1,4 +1,1 @@
-root.render(
-<h1>Hello, everyone!</h1>, 
-document.getElmentById("root")
-)
+ReactDOM.render(<h2>Hello, World!</h2>, document.getElementById("root"))
