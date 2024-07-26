@@ -1,6 +1,6 @@
 {
-  "name": "Scrim-s069u3v31t",
-  "description": "https://v2.scrimba.com/learn-react-c0e/~0m",
+  "name": "Scrim-s01uakq",
+  "description": "https://v2.scrimba.com/learn-react-c0e/~0r",
   "scripts": {
     "watch": "webpack -w",
     "build": "webpack"
