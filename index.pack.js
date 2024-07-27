@@ -484,9 +484,42 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function Main() {
     return _react2.default.createElement(
-        "h1",
+        "main",
         null,
-        "Main component"
+        _react2.default.createElement(
+            "h1",
+            { className: "main--title" },
+            "Fun facts about React"
+        ),
+        _react2.default.createElement(
+            "ul",
+            { className: "main--facts" },
+            _react2.default.createElement(
+                "li",
+                null,
+                "Was first released in 2013"
+            ),
+            _react2.default.createElement(
+                "li",
+                null,
+                "Was originally created by Jordan Walke"
+            ),
+            _react2.default.createElement(
+                "li",
+                null,
+                "Has well over 100K stars on GitHub"
+            ),
+            _react2.default.createElement(
+                "li",
+                null,
+                "Is maintained by Facebook"
+            ),
+            _react2.default.createElement(
+                "li",
+                null,
+                "Powers thousands of enterprise apps, including mobile apps"
+            )
+        )
     );
 }
 
@@ -524,12 +557,7 @@ function Navbar() {
             "React Course - Project 1"
         )
     );
-} /**
-  Challenge: Complete the Navbar to match the design
-  
-  Hint: use the Figma file for the most accurate peek at the design
-  (colors, sizes, fonts, etc.)
-  */
+}
 
 /***/ }),
 /* 8 */
